@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  .container {
+    width: 350px;
+    height: 500px;
+    perspective: 800px;
+  }
+  
+  .container:hover > .card {
+    cursor: pointer;
+    transform: rotateY(180deg);
+  }
+  
+  .card {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+    margin-left: 32px;
+    margin-top: 123px;
+  }
+  
+  .front,
+  .back {
+    height: 71%;
+    width: 73%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(6, 150, 233, 0.616);
+    position: absolute;
+    backface-visibility: hidden;
+  }
+  
+  .front {
+    background-image: url(https://cdn1.vectorstock.com/i/1000x1000/82/70/cartoon-set-of-kitchen-appliances-vector-20208270.jpg);
+    background-repeat: no-repeat;
+   
+  }
+  
+  .back {
+    background-color: rgba(14, 171, 233, 0.712);
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+  }
+
+  .head1{
+    margin-right:10px;
+    margin-top:-77px;
+  }
+
+  .para1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    margin-right:10px;
+    margin-top:-23px;
+    color:black;
+}
+.para2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    margin-right:10px;
+    margin-top:-77px;
+    color:black;
+  }
