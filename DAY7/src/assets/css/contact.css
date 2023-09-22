@@ -1,0 +1,113 @@
+body{
+    
+    margin:0
+}
+
+
+
+.form{
+    width:340px;
+    height:440px;
+    background:#0d0404;
+    border-radius:8px;
+    box-shadow:0 0 40px -10px #000;
+    margin:calc(50vh - 220px) auto;
+    padding:20px 30px;
+    max-width:calc(100vw - 40px);
+    box-sizing:border-box;
+    font-family:'Montserrat',sans-serif;
+    position:relative;
+    margin-inline: 535px;
+  margin-top: 128px;
+}
+.h2
+{
+    margin:10px 0;
+    padding-bottom:10px;
+    width:180px;
+    color:#4949b7;
+    border-bottom:3px solid #78788c
+}
+.input{
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;border:0;
+    font-family:'Montserrat',sans-serif;
+    transition:all .3s;
+    border-bottom:2px solid #bebed2
+}
+.input:focus{
+    border-bottom:2px solid #78788c
+}
+p:before
+{
+    content:attr(type);
+    display:block;
+    margin:28px 0 0;
+    font-size:14px;
+    color:#5a5a5a
+}
+.button{
+    float:right;
+    padding:8px 12px;
+    margin:8px 0 0;
+    font-family:'Montserrat',sans-serif;
+    border:2px solid #78788c;
+    background:0;
+    color:#5a5a6e;
+    cursor:pointer;
+    transition:all .3s
+}
+.button:hover{
+    background:#78788c;color:#fff
+}
+.div{
+    content:'Hi';
+    position:absolute;
+    bottom:-15px;
+    right:-20px;
+    color:#fff;
+    width:320px;
+    padding:16px 4px 16px 0;
+    border-radius:6px;
+    font-size:13px;
+    box-shadow:10px 10px 40px -14px #000
+}
+span{
+    margin:0 5px 0 15px
+}
+.d1{
+    color:#5a5a5a
+    
+
+
+}
+
+.div11 {
+    background-image: linear-gradient(rgba(199, 9, 224, 0.685),rgba(17, 128, 219, 0.616));
+    width: 221px;
+    border: 5px solid rgb(7, 55, 145);
+    padding: 28px;
+    margin: 23px;
+      
+    margin-top: 45px;
+    margin-left: -6px;
+    height: 1px;
+  }
+  .div21{
+  
+        font-size:larger;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+    width: 351px;
+    padding: 30px;
+    margin: 23px;
+     color: #f5f5f7;
+    margin-top: -80px;
+    margin-left: -50px;
+    
+     
+    }

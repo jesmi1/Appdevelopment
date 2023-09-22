@@ -1,0 +1,155 @@
+.pinkbc1 {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/016/181/704/original/large-household-appliances-flat-color-illustration-kitchen-equipment-assortment-fully-editable-2d-simple-cartoon-interior-with-electrical-store-on-background-vector.jpg");
+    height: 100vh;
+      width: 100%;
+    overflow: hidden;
+  }
+
+
+  .pinkcard {
+    position: absolute;
+    top: 51%;
+    left: 12%;
+    width: 788px;
+    height: 319px;
+    margin: -150px;
+    float: left;
+    perspective: 500px;
+  }
+  
+  .pinkcontent {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  }
+  
+  .pinkcard:hover .pinkcontent {
+    transform: rotateY( 180deg ) ;
+    transition: transform 0.5s;
+  }
+  
+  .pinkfront,
+  .pinkback {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(8, 12, 240, 0.493);
+    line-height: 300px;
+    color: #ebecf7;
+    text-align: center;
+    font-size: 60px;
+    border-radius: 5px;
+    backface-visibility: hidden;
+  }
+  
+  .pinkback {
+    background: rgba(4, 146, 241, 0.966);
+    color: white;
+    transform: rotateY( 180deg );
+    border-radius: 6px;
+  }
+
+
+.pinkcon1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: -301px;
+    font-size: 50px;
+    margin-top: -118px;
+    color: rgb(11, 18, 94);
+  }
+  
+  .pinkcon2 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 157px;
+    font-size: 54px;
+    margin-top: -225px;
+    color: rgb(11, 18, 94);
+  }
+  .pinkcon3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: -266px;
+    font-size: 45px;
+    margin-top: -230px;
+    color: rgb(190, 25, 61);
+  }
+  .pinkcon4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 140px;
+    font-size: 45px;
+    margin-top: -228px;
+    color: rgb(190, 25, 61);
+  }
+
+
+
+  .container {
+    width: 350px;
+    height: 500px;
+    perspective: 800px;
+  }
+  
+  .container:hover > .card {
+    cursor: pointer;
+    transform: rotateY(180deg);
+  }
+  
+  .card {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+    margin-left: 995px;
+  margin-top: 94px;
+  }
+  
+  .front,
+  .back {
+    height: 71%;
+    width: 73%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(6, 150, 233, 0.616);
+    position: absolute;
+    backface-visibility: hidden;
+  }
+  
+  .front {
+    background-image: url(https://cdn1.vectorstock.com/i/1000x1000/82/70/cartoon-set-of-kitchen-appliances-vector-20208270.jpg);
+    background-repeat: no-repeat;
+   
+  }
+  
+  .back {
+    background-color: rgba(14, 171, 233, 0.945);
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+  }
+
+  .head1{
+    margin-right:10px;
+    margin-top:-77px;
+  }
+
+  .para1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    margin-right:10px;
+    margin-top:-23px;
+    color:rgb(250, 247, 247);
+}
+.para2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    margin-right:10px;
+    margin-top:-77px;
+    color:rgb(250, 244, 244);
+  }

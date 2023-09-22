@@ -1,0 +1,31 @@
+.logbg {
+    background-image: url("https://indian-retailer.s3.ap-south-1.amazonaws.com/s3fs-public/2022-08/home-appliances-range.jpg");
+    height: 100vh;
+      width: 100%;
+    overflow:hidden;
+    background-repeat:round;
+    background-size: cover;
+    
+  }
+  .auth-form1 {
+    gap: 1rem;
+    height: 44vh;
+    width: 30vw;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+  .app-x-shadow1{
+    box-shadow:
+    2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+}

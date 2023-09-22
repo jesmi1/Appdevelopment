@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+}
+
+main {
+    margin: 16px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    
+    background-image: linear-gradient(#07d8e7,#0c7ee9e3);
+    color: white;
+    font-family: Helvetica;
+    font-weight: 300;
+    height: 63px;
+}
+
+.navbar__title {
+    margin-right: auto;
+    font-size: 150%;
+    padding: 12px 16px;
+    color: rgb(245, 242, 239);
+}
+
+.navbar__item {
+    padding: 16px 16px;
+    cursor: pointer;
+    vertical-align: middle;
+    color: rgb(240, 235, 230);
+    margin-right: 10px;
+}
+.pinkbtn1{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 9px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 11px;
+    margin-left: 1130px;
+}
+.pinkbtn2{
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 9px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+margin-left: 18px;
+}
+.pinkbtn3{
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 9px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 11px;
+  margin-left: 9px;
+}
+.pinkLogin {
+    border-color: #04AA6D;
+    color: green;
+  }
+  
+  .pinkLogin:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Blue */
+  .pinkaboutus {
+    border-color: #2196F3;
+    color: dodgerblue;
+  }
+  
+  .pinkaboutsus:hover {
+    background: #2196F3;
+    color: white;
+  }
+  
+  /* Orange */
+  .pinkcontact {
+    border-color: #ff9800;
+    color: orange;
+  }
+  
+  .pinkcontact:hover {
+    background: #ff9800;
+    color: white;
+  }
