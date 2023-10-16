@@ -1,0 +1,125 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #fefcfe;
+    color: #0c0b0b;
+    height: 6rem;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.footer-container {
+    width: 90vw;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-l {
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+.footer-r {
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.feedback-link {
+    color: #ff7300;
+}
+
+
+
+.left-bar {
+    background-color: #ffffff;
+    color: hsl(0, 0%, 0%);
+    height: 100%;
+    position: fixed;
+    width: 20%;
+    left: 0;
+    top: auto;
+    bottom: auto;
+    box-shadow:
+        16px 2px 28px rgba(0, 0, 0, 0.07);
+}
+
+.left-bar-container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.4rem;
+    align-items: center;
+    margin-top: 3rem;
+    bottom: auto;
+}
+
+.left-bar-button {
+    border: none;
+    background-color: #fff;
+    color: rgb(3, 3, 3);
+    border-left: 4px solid rgb(9, 9, 9);
+    border-right: 2px solid #fff;
+}
+
+.left-bar-button-logout {
+    border: none;
+    border-left: 4px solid #ff0000;
+    border-right: 2px solid #fff;
+    background-color: #fff;
+    color: #ff0000;
+    position: absolute;
+    bottom: 1rem;
+
+}
+
+.nav-btn {
+    padding: 1rem;
+    width: 90%;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: .4s ease-in;
+    box-shadow:
+        0.2px 0.2px 1.6px -2px rgba(0, 0, 0, 0.036),
+        0.2px 0.2px 2.4px -2px rgba(0, 0, 0, 0.053),
+        0.3px 0.3px 3px -2px rgba(0, 0, 0, 0.065),
+        0.4px 0.4px 3.4px -2px rgba(0, 0, 0, 0.075),
+        0.4px 0.4px 3.7px -2px rgba(0, 0, 0, 0.085),
+        0.5px 0.5px 4px -2px rgba(0, 0, 0, 0.095),
+        0.5px 0.5px 4.4px -2px rgba(0, 0, 0, 0.105),
+        0.6px 0.6px 4.9px -2px rgba(0, 0, 0, 0.117),
+        0.7px 0.7px 5.7px -2px rgba(0, 0, 0, 0.134),
+        1px 1px 8px -2px rgba(0, 0, 0, 0.17);
+}
+.dasbg
+{
+    background-color: antiquewhite;
+    background-image: url(https://img.freepik.com/premium-photo/cozy-living-room-with-poster-frame-coffee-table-sofa-armchair-rack-magnolia-vase-plaid-personal-accessories-home-decor_176841-33372.jpg?w=2000);
+}
+.dabg
+{
+    position:fixed;
+
+}
+.head{
+    flex:auto;
+    text-align: center;
+}
+.h
+{
+    flex: auto;
+    text-align:center;
+    font-size: larger;   
+}
